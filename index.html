@@ -3,9 +3,71 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/css/style.css">
+    <link rel="stylesheet" href="css/output.css">
     <title>Coffee Shop</title>
 </head>
 <body>
-    
+    <section id="hero" class="h-screen w-screen text-center relative overflow-hidden">
+        <header class="flex justify-between items-center relative py-4 px-10 top-0 w-full z-40" id="landing-header">
+            <div class="flex flex-grow basis-0">
+                <a href="#"><img class="h-8 w-28" src={logo} alt=""></a>
+            </div>
+            <nav>
+                <ul class="flex text-sm [&>li>a]:font-medium items-center [&>li>a]:text-white [&>li>a]:inline-block [&>li>a]:px-4 [&>li>a]:py-2">
+                    <li><a href="#">Anillos</a></li>
+                    <li><a href="#">Pulseras</a></li>
+                    <li><a href="#">Collares</a></li>
+                    <li><a href="#">Aros</a></li>
+                    <li><a href="#">Nueva Colección</a></li>
+                </ul>
+            </nav>
+            <nav class="flex flex-grow basis-0 justify-end">
+                <ul class="flex text-sm font-medium items-center text-white">
+                    <li>
+                        <a href="#" class="flex items-center justify-center px-4 py-2">
+                            <i class="fa-solid fa-magnifying-glass  text-white"></i>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#" id="shopping" class="px-4 py-2 flex items-center justify-center relative" >
+                            <i class="fa-solid fa-cart-shopping  text-white"></i>
+                            <span class="bg-red-600 rounded-[50%] flex content-center items-center text-white absolute top-[-5px] left-[50%] px-3 py-1 text-sm" style="transform: scale(0.6)">0</span>
+                        </a>               
+                    </li>
+                    <li><a href="/registerLogin" class="inline-block px-4 py-2">Ingresar</a></li>
+                </ul>
+            </nav>
+        
+            <div id="menu-bd" 
+                class="absolute bg-[#a16b46] backdrop-blur-lg rounded
+                left-[var(--left)] top-[var(--top)]
+                w-[var(--width)] h-[var(--height)]
+                transitio duration-500
+                ease-in-out  opacity-0 -z-10
+                "
+            ></div>
+        </header>
+        <div class="relative z-30 h-full flex flex-col">
+            <header>
+                <h1 class="text-white pt-40 text-[40px] font-medium">Ten un gran dia con un rico cafe</h1>
+                <p class="text-white text-sm">Nada como un buen café para empezar el día con energía y optimismo</p>
+            </header>
+        
+            <footer class=" flex flex-grow flex-col justify-end pb-32">
+                <div>
+                    <a class="border-2 rounded font-medium text-white px-10 py-2 transition-colors bg-white/5 backdrop-blur-sm inline-block hover:bg-[#a16b46]" href="#">Comprar Ahora</a>
+                </div>
+            </footer>
+        </div>
+        
+        <div class="absolute top-0 bottom-0 h-full w-full z-10 ">
+            <video class="object-center object-cover h-full w-full" autoplay muted loop src="/video/coffee-video.mp4"></video>
+        </div>      
+    </section>
 </body>
+<script src="https://kit.fontawesome.com/daa73c26b1.js" crossorigin="anonymous"></script>
+<script src="/js/index.js"></script>
 </html>
+
+<!-- //npx tailwindcss -i ./css/style.css -o ./css/output.css --watch// -->
