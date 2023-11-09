@@ -3,7 +3,6 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="/css/style.css">
     <link rel="stylesheet" href="css/output.css">
     <link rel="icon" href="./img/taza-de-cafe.webp">
     <link rel="stylesheet" href="https://unpkg.com/@material-tailwind/html@latest/styles/material-tailwind.css"/>
@@ -11,7 +10,7 @@
 </head>
 <body>
     <section id="hero" class="h-screen w-screen text-center relative overflow-hidden">
-        <button class="open-button hidden"><i class="fas fa-grip-lines"></i></button>
+        <button class="open-button md:hidden"><i class="fas fa-grip-lines  text-white md:hidden"></i></button>
         <header class="flex justify-between items-center relative py-4 px-10 top-0 w-full z-40" id="landing-header">
             <div class="flex md:flex-grow basis-0">
                 <a href="#" class="text-white font-semibold text-2xl">Coffee</a>
@@ -23,7 +22,7 @@
                     <li><a href="#">Contactanos</a></li>
                     <li><a href="#">Novedades</a></li>
                 </ul>
-                <button class="close-button hidden"><i class="fas fa-times"></i></button>
+                <button class="close-button md:hidden"><i class="fas fa-times md:hidden"></i></button>
             </nav>
             <nav class="flex md:flex-grow basis-0 justify-end">
                 <ul class="flex text-sm font-medium items-center text-white">
@@ -49,7 +48,7 @@
             </nav>
         
             <div id="menu-bd" 
-                class="absolute bg-[#a16b46] backdrop-blur-lg rounded
+                class="absolute bg-amber-950 backdrop-blur-lg rounded
                 left-[var(--left)] top-[var(--top)]
                 w-[var(--width)] h-[var(--height)]
                 transitio duration-500
@@ -65,7 +64,7 @@
         
             <footer class=" flex flex-grow flex-col justify-end pb-32">
                 <div>
-                    <a class="border-2 rounded font-medium text-white px-10 py-2 transition-colors bg-white/5 backdrop-blur-sm inline-block hover:bg-[#a16b46]" href="#">Ordenar Ahora</a>
+                    <a class="border-2 rounded font-medium text-white px-10 py-2 transition-colors bg-white/5 backdrop-blur-sm inline-block hover:bg-amber-950" href="#">Ordenar Ahora</a>
                 </div>
             </footer>
         </div>
@@ -74,20 +73,20 @@
             <video class="object-center object-cover h-full w-full" autoplay muted loop src="/video/coffee-video.mp4"></video>
         </div>      
     </section>
-    <section class="py-16 bg-white">
+    <section class="py-16">
       <div  class="container m-auto px-6 space-y-8 text-gray-500 md:pr-12 lg:pr-20">
           <div class="justify-center text-center gap-6 md:text-left md:flex lg:items-center lg:gap-16">
               <div class="order-last mb-6 space-y-6 md:mb-0 md:w-6/12 lg:w-6/12">
-                  <h2 class="text-4xl text-gray-700 font-bold md:text-5xl">¡Aprovecha el <span class="text-amber-700">30% de descuento</span> en tu café favorito!</h2>
+                  <h2 class="text-4xl text-gray-600 font-bold md:text-5xl">¡Aprovecha el <span class="text-amber-950">30% de descuento</span> en tu café favorito!</h2>
                   <p class="text-lg">Solo por la mañana y al comprar un café de la categoría premium. No dejes pasar esta oportunidad de disfrutar de un café exquisito y ahorrar dinero</p>
                   <div class="flex flex-row-reverse flex-wrap justify-center gap-4 md:gap-6 md:justify-end">
-                      <button type="button" title="Comenzar compra" class="w-full py-3 px-6 text-center rounded-xl transition bg-amber-700 shadow-xl hover:bg-amber-600 active:bg-amber-700 focus:bg-amber-600 sm:w-max">
+                      <button type="button" title="Comenzar compra" id="boton-comprar-promo" class="w-full py-3 px-6 text-center rounded-xl bg-amber-950 transition  shadow-xl hover:bg-amber-800 active:bg-amber-900 focus:bg-amber-800 sm:w-max">
                           <span class="block text-white font-semibold">
                               Adquirir Promo
                           </span>
                       </button>
-                      <button type="button" title="more about" class="w-full order-first py-3 px-6 text-center rounded-xl bg-gray-100 transition hover:bg-gray-200 active:bg-gray-300 focus:bg-gray-200 sm:w-max">
-                          <span class="block text-gray-600 font-semibold">
+                      <button type="button" title="Saber mas" class="w-full order-first py-3 px-6 text-center rounded-xl bg-gray-100 transition hover:bg-gray-200 active:bg-gray-300 focus:bg-gray-200 sm:w-max">
+                          <span class="block text-amber-950 font-semibold">
                               Conocer mas
                           </span>
                       </button>
@@ -108,9 +107,9 @@
       </div>
     </Section>
     <section id="destacados" class="w-full h-screen flex flex-col" style="align-items: center !important;">
-        <header class="bg-white h-auto w-max mt-5 px-8 py-4 rounded-3xl">
-            <h2 class="text-black  text-[35px] font-medium text-center">Nuestros productos destacados</h2>
-            <p class="text-black text-sm text-center">Nada como un buen café para empezar el día con energía y optimismo</p>
+        <header class="w-full bg-white h-auto text-center mt-5 px-8 py-4 rounded-3xl">
+            <h2 class="text-4xl text-gray-600 font-bold md:text-5xl">Nuestros productos <span class="text-amber-950">favoritos</span></h2>
+            <p class=" text-gray-500 text-lg text-center">Nada como un buen <span class="text-amber-950">café</span> para empezar el día con energía y optimismo</p>
         </header>
         <article id="cafes" class="flex justify-start content-center max-w-full px-5 mt-3 relative">
             <button id="scroll-left" class="btn scroll-left me-3 hidden lg:block">
@@ -122,7 +121,7 @@
             </button>
         </article>
     </section>
-    <div class="px-4 pt-16 mx-auto sm:max-w-xl md:max-w-full lg:max-w-screen-xl md:px-24 lg:px-8">
+    <footer class="px-4 pt-16 mx-auto sm:max-w-xl md:max-w-full lg:max-w-screen-xl md:px-24 lg:px-8">
         <div class="grid gap-10 row-gap-6 mb-8 sm:grid-cols-2 lg:grid-cols-4">
           <div class="sm:col-span-2">
             <a href="/" aria-label="Go home" title="Company" class="inline-flex items-center">
@@ -202,7 +201,7 @@
             </li>
           </ul>
         </div>
-      </div>
+    </footer>
 
     <template id="cafe-card-template">
         <div id="card-destacada" class="relative flex flex-col rounded-xl bg-white bg-clip-border text-gray-700 shadow-md  flex-shrink-0 flex-grow-0 md:w-[33%] w-full mx-1 mb-3">

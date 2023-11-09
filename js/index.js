@@ -41,7 +41,6 @@ const ListItem = document.querySelectorAll("#landing-header li")
       const response = await fetch('../data/productos.json');
       const data = await response.json();
     
-      // Accede a la clave "cafes" en el objeto JSON
       const cafes = data.cafes;
     
       const cafesDestacados = cafes.filter(cafe => cafe.destacado === true);
@@ -68,6 +67,8 @@ const ListItem = document.querySelectorAll("#landing-header li")
     mostrarCafes();
 
 const cafesDestacados = document.getElementById("cafes-destacados");
+
+
 const scrollLeft = document.getElementById("scroll-left");
 const scrollRight = document.getElementById("scroll-right");
   

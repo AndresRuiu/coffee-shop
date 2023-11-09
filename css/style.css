@@ -14,11 +14,29 @@ body{
   overflow-x: hidden;
 }
 
+#boton-comprar-promo{
+  --tw-bg-opacity: 1;
+  background-color: rgb(69 26 3 / var(--tw-bg-opacity));
+}
 
+#boton-comprar-promo:hover{
+  --tw-bg-opacity: 1;
+  background-color: rgb(146 64 14 / var(--tw-bg-opacity));
+}
 
-  #cafes-destacados::-webkit-scrollbar {
+#boton-comprar-promo:active{
+  --tw-bg-opacity: 1;
+  background-color: rgb(120 53 15 / var(--tw-bg-opacity));
+}
+
+#boton-comprar-promo:focus{
+  --tw-bg-opacity: 1;
+  background-color: rgb(146 64 14 / var(--tw-bg-opacity));
+}
+ 
+#cafes-destacados::-webkit-scrollbar {
     display: none;
-  }
+}
 
 
 #scroll-left, #scroll-right {
@@ -35,6 +53,12 @@ body{
 
 #scroll-right {
   right: 0;
+}
+
+@media (max-width: 640px){
+    #landing-header{
+      display: none;
+    }
 }
 
 @media (min-width: 640px) {
@@ -57,9 +81,15 @@ body{
   .sm\:w-max {
     width: max-content !important;
   }
+  .sm\:block {
+    display: block !important;
+}
 }
 
   @media (min-width: 768px) {
+    .md\:hidden {
+      display: none !important;
+    }
     .md\:w-\[33\%\] {
       width: 33% !important;
     }
