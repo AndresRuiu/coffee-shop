@@ -19,6 +19,7 @@ const ListItem = document.querySelectorAll("#landing-header li")
         })
     })
 
+
     document.addEventListener('DOMContentLoaded', function() {
         var openButton = document.querySelector('.open-button');
         var closeButton = document.querySelector('.close-button');
@@ -36,39 +37,46 @@ const ListItem = document.querySelectorAll("#landing-header li")
     });
     
 
+async function cargarProductosDestacados() {
+    const response = await fetch('../data/productos.json');
+    const data = await response.json();
+    const cafes = data.cafes.filter(cafe => cafe.destacado);
+    const especialidades = data.especialidad.filter(especialidad => especialidad.destacado);
+  
+    return { cafes, especialidades };
+}
 
-    async function mostrarCafes() {
-      const response = await fetch('../data/productos.json');
-      const data = await response.json();
-    
-      const cafes = data.cafes;
-    
-      const cafesDestacados = cafes.filter(cafe => cafe.destacado === true);
+async function mostrarCafesYEspecialidadesDestacados() {
+    const { cafes, especialidades } = await cargarProductosDestacados();
+    const cafesYEspecialidades = [...cafes, ...especialidades];
     
       const template = document.querySelector("#cafe-card-template");
       const container = document.querySelector("#cafes-destacados");
     
       const fragment = document.createDocumentFragment();
-    
-      cafesDestacados.forEach(cafe => {
+
+    cafesYEspecialidades.forEach(item => {
         const instance = template.content.cloneNode(true);
-    
-        instance.querySelector("#img-cafe").src = cafe.imagen;
-        instance.querySelector("#descripcion-cafe").textContent = cafe.descripcion;
-        instance.querySelector("#nombre-cafe").textContent = cafe.nombre;
-        instance.querySelector("#precio-cafe").textContent = `$${cafe.precio}`;
-    
+
+        instance.querySelector("#img-cafe").src = item.imagen;
+        instance.querySelector("#descripcion-cafe").textContent = item.descripcion;
+        instance.querySelector("#nombre-cafe").textContent = item.nombre;
+        instance.querySelector("#precio-cafe").textContent = `$${item.precio}`;
+
         fragment.appendChild(instance);
-      });
-    
-      container.appendChild(fragment);
-    }
-    
-    mostrarCafes();
+    });
+
+    container.innerHTML = '';
+    container.appendChild(fragment);
+
+}
+  
+  
+mostrarCafesYEspecialidadesDestacados();
+
+
 
 const cafesDestacados = document.getElementById("cafes-destacados");
-
-
 const scrollLeft = document.getElementById("scroll-left");
 const scrollRight = document.getElementById("scroll-right");
   

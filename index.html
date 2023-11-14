@@ -6,21 +6,21 @@
     <link rel="stylesheet" href="css/output.css">
     <link rel="icon" href="./img/taza-de-cafe.webp">
     <link rel="stylesheet" href="https://unpkg.com/@material-tailwind/html@latest/styles/material-tailwind.css"/>
-    <title>Coffee Shop</title>
+    <title>Ristretto Coffee Shop</title>
 </head>
 <body>
     <section id="hero" class="h-screen w-screen text-center relative overflow-hidden">
-        <button class="open-button md:hidden"><i class="fas fa-grip-lines  text-white md:hidden"></i></button>
+        <button class="open-button md:hidden block z-50"><i class="fas fa-grip-lines text-white md:hidden"></i></button>
         <header class="flex justify-between items-center relative py-4 px-10 top-0 w-full z-40" id="landing-header">
             <div class="flex md:flex-grow basis-0">
-                <a href="#" class="text-white font-semibold text-2xl">Coffee</a>
+                <a href="#" class="text-white font-semibold text-2xl">Ristretto</a>
             </div>
             <nav>
                 <ul class="flex text-sm [&>li>a]:font-medium items-center [&>li>a]:text-white [&>li>a]:inline-block [&>li>a]:px-4 [&>li>a]:py-2">
-                    <li><a href="#">Especialidad</a></li>
-                    <li><a href="#">Pasteleria</a></li>
-                    <li><a href="#">Contactanos</a></li>
-                    <li><a href="#">Novedades</a></li>
+                    <li><a href="./paginas/cafes.html">Cafés</a></li>
+                    <li><a href="./paginas/panaderia.html">Panaderia</a></li>
+                    <li><a href="./paginas/especialidad.html">Especialidad</a></li>
+                    <li><a href="./paginas/combos.html">Combos</a></li>
                 </ul>
                 <button class="close-button md:hidden"><i class="fas fa-times md:hidden"></i></button>
             </nav>
@@ -64,7 +64,7 @@
         
             <footer class=" flex flex-grow flex-col justify-end pb-32">
                 <div>
-                    <a class="border-2 rounded font-medium text-white px-10 py-2 transition-colors bg-white/5 backdrop-blur-sm inline-block hover:bg-amber-950" href="#">Ordenar Ahora</a>
+                    <a class="border-2 rounded font-medium text-white px-10 py-2 transition-colors bg-white/5 backdrop-blur-sm inline-block hover:bg-amber-950" href="./paginas/cafes.html">Ordenar Ahora</a>
                 </div>
             </footer>
         </div>
@@ -94,39 +94,67 @@
               </div>
               <div class="grid grid-cols-5 grid-rows-4 gap-4 md:w-5/12 lg:w-6/12">
                   <div class="col-span-2 row-span-4">
-                      <img src="/img/tazas_de_cafe.jpg" class="rounded-full" width="640" height="960" alt="shoes" loading="lazy">
+                      <img src="/img/pasteleria/cafe-tarta-vertical.jpg" class="rounded-xl h-full" width="640" alt="shoes" loading="lazy">
                   </div>
                   <div class="col-span-2 row-span-2">
                       <img src="/img/chica-tomando-cafe.jpg" class="w-full h-full object-cover object-top rounded-xl" width="640" height="640" alt="shoe" loading="lazy">
                   </div>
                   <div class="col-span-3 row-span-3">
-                      <img src="/img/cafe_bar.jpg" class="w-full h-full object-cover object-top rounded-xl" width="640" height="427" alt="shoes" loading="lazy">
+                      <img src="/img/cafe_bar.jpg" class="w-full h-full object-cover object-top rounded-xl" width="640" height="415" alt="shoes" loading="lazy">
                   </div>
               </div>
           </div>
       </div>
     </Section>
-    <section id="destacados" class="w-full h-screen flex flex-col" style="align-items: center !important;">
-        <header class="w-full bg-white h-auto text-center mt-5 px-8 py-4 rounded-3xl">
-            <h2 class="text-4xl text-gray-600 font-bold md:text-5xl">Nuestros productos <span class="text-amber-950">favoritos</span></h2>
+    <section id="destacados" class="w-full h-full flex flex-col" style="align-items: center !important;">
+        <header class="w-full bg-white h-auto text-center mt-3 px-8 py-4 rounded-3xl">
+            <h2 class="text-4xl text-gray-600 font-bold md:text-5xl">Nuestros mejores <span class="text-amber-950">cafés</span></h2>
             <p class=" text-gray-500 text-lg text-center">Nada como un buen <span class="text-amber-950">café</span> para empezar el día con energía y optimismo</p>
         </header>
-        <article id="cafes" class="flex justify-start content-center max-w-full px-5 mt-3 relative">
+        <article id="cafes" class="flex justify-start content-center max-w-full px-5  relative">
             <button id="scroll-left" class="btn scroll-left me-3 hidden lg:block">
                 <svg xmlns="http://www.w3.org/2000/svg" height="2em" viewBox="0 0 320 512"><!--! Font Awesome Free 6.4.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2023 Fonticons, Inc. --><style>svg{fill:#000000}</style><path d="M9.4 233.4c-12.5 12.5-12.5 32.8 0 45.3l192 192c12.5 12.5 32.8 12.5 45.3 0s12.5-32.8 0-45.3L77.3 256 246.6 86.6c12.5-12.5 12.5-32.8 0-45.3s-32.8-12.5-45.3 0l-192 192z"/></svg>
             </button>
-                <div id="cafes-destacados" class="flex flex-nowrap overflow-x-auto"></div>
+                <div id="cafes-destacados" class="flex flex-nowrap overflow-x-auto h-max px-2"></div>
             <button id="scroll-right" class="btn scroll-right hidden lg:block">
                 <svg xmlns="http://www.w3.org/2000/svg" height="2em" viewBox="0 0 320 512"><!--! Font Awesome Free 6.4.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2023 Fonticons, Inc. --><style>svg{fill:#000000}</style><path d="M310.6 233.4c12.5 12.5 12.5 32.8 0 45.3l-192 192c-12.5 12.5-32.8 12.5-45.3 0s-12.5-32.8 0-45.3L242.7 256 73.4 86.6c-12.5-12.5-12.5-32.8 0-45.3s32.8-12.5 45.3 0l192 192z"/></svg>
             </button>
         </article>
     </section>
-    <footer class="px-4 pt-16 mx-auto sm:max-w-xl md:max-w-full lg:max-w-screen-xl md:px-24 lg:px-8">
+    <section class="flex flex-col h-screen w-full md:p-12 p-4">
+      <div class="flex flex-col md:flex-row justify-between items-center">
+          <h2 class="font-semibold text-xl">Comprar por categoria</h2>
+          <a href="#" class="no-underline text-amber-950 text-base flex gap-1 items-center"><strong>Ver todas las categorias</strong> <svg xmlns="http://www.w3.org/2000/svg" height="1em" viewBox="0 0 448 512"><!--! Font Awesome Free 6.4.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2023 Fonticons, Inc. --><style>svg{fill:rgb(69 26 3)}</style><path d="M438.6 278.6c12.5-12.5 12.5-32.8 0-45.3l-160-160c-12.5-12.5-32.8-12.5-45.3 0s-12.5 32.8 0 45.3L338.8 224 32 224c-17.7 0-32 14.3-32 32s14.3 32 32 32l306.7 0L233.4 393.4c-12.5 12.5-12.5 32.8 0 45.3s32.8 12.5 45.3 0l160-160z"/></svg></a>
+      </div>
+      <div class="flex h-[80vh] w-full gap-5 my-4 text-white flex-col md:flex-row">
+          <div id="nuevos-ingresos" class="categorias-hover flex flex-col justify-end items-start basis-2/4  rounded-2xl">
+              <div class="flex flex-col text-[ #ebebeb] text-base m-5">
+                  <span><strong>Cafés de especialidad</strong></span>
+                  <span>Compra ahora</span>
+              </div>
+          </div>
+          <div class="basis-2/4 gap-5 flex flex-col">
+              <div id="categoria-pulseras" class="categorias-hover flex flex-col justify-end items-end basis-2/4 rounded-2xl">
+                  <div class="flex flex-col text-[ #ebebeb] text-base m-5">
+                      <span class="text-right"><strong>Pasteleria</strong></span>
+                      <span>Compra ahora</span>
+                  </div>
+              </div>
+              <div id="categoria-anillos" class="categorias-hover flex flex-col justify-end items-end basis-2/4 rounded-2xl">
+                  <div class="flex flex-col text-[ #ebebeb] text-base m-5">
+                      <span class="text-right"><strong>Combos</strong></span>
+                      <span>Compra ahora</span>
+                  </div>
+              </div>
+          </div>
+      </div>
+    </section>
+    <footer class="px-4 pt-5 mx-auto sm:max-w-xl md:max-w-full lg:max-w-screen-xl md:px-24 lg:px-8">
         <div class="grid gap-10 row-gap-6 mb-8 sm:grid-cols-2 lg:grid-cols-4">
           <div class="sm:col-span-2">
             <a href="/" aria-label="Go home" title="Company" class="inline-flex items-center">
                 <i class="fa-solid fa-mug-hot h-5" style="color: #000000;"></i>
-              <span class="ml-2 text-xl font-bold tracking-wide text-gray-800 uppercase">Coffee</span>
+              <span class="ml-2 text-xl font-bold tracking-wide text-gray-800 uppercase">Ristretto</span>
             </a>
             <div class="mt-6 lg:max-w-sm">
               <p class="text-sm text-gray-800">
@@ -204,8 +232,8 @@
     </footer>
 
     <template id="cafe-card-template">
-        <div id="card-destacada" class="relative flex flex-col rounded-xl bg-white bg-clip-border text-gray-700 shadow-md  flex-shrink-0 flex-grow-0 md:w-[33%] w-full mx-1 mb-3">
-            <div class="relative mx-4 mt-4 h-52 overflow-hidden rounded-xl bg-white bg-clip-border text-gray-700">
+        <div id="card-destacada" class="relative flex flex-col rounded-xl bg-clip-border text-gray-700 shadow-md  flex-shrink-0 flex-grow-0 md:w-[33%] w-full mx-1 mb-3" style=" background-color: rgb(69 26 3 / 0.70);">
+            <div class="relative mx-4 mt-4 h-64 overflow-hidden rounded-xl border-amber-950/20 border-2">
               <img
                 src=""
                 class="h-full w-full object-cover"
@@ -214,17 +242,17 @@
             </div>
             <div class="p-6">
               <div class="mb-2 flex items-center justify-between">
-                <p id="nombre-cafe" class="block font-sans text-base font-medium leading-relaxed text-blue-gray-900 antialiased">
+                <p id="nombre-cafe" class="block text-lg font-semibold leading-relaxed text-amber-950 antialiased">
                 </p>
-                <p id="precio-cafe" class="block font-sans text-base font-medium leading-relaxed text-blue-gray-900 antialiased">
+                <p id="precio-cafe" class="block text-base font-medium leading-relaxed text-gray-100 antialiased">
                 </p>
               </div>
-              <p id="descripcion-cafe" class="block font-sans text-sm font-normal leading-normal text-gray-700 antialiased opacity-75">
+              <p id="descripcion-cafe" class="block text-sm font-normal leading-normal text-gray-100 antialiased opacity-85">
               </p>
             </div>
-            <div class="p-6 pt-0">
+            <div class="p-4 pt-0 flex justify-center content-center">
               <button
-                class="block w-full select-none rounded-lg bg-blue-gray-900/10 py-3 px-6 text-center align-middle font-sans text-xs font-bold uppercase text-blue-gray-900 transition-all hover:scale-105 focus:scale-105 focus:opacity-[0.85] active:scale-100 active:opacity-[0.85] disabled:pointer-events-none disabled:opacity-50 disabled:shadow-none"
+                class="block w-auto select-none rounded-lg bg-blue-gray-100 py-3 px-6 text-center align-middle text-xs font-bold text-amber-950 transition-all hover:scale-105 focus:scale-105 focus:opacity-[0.85] active:scale-100 active:opacity-[0.85] disabled:pointer-events-none disabled:opacity-50 disabled:shadow-none"
                 type="button"
               >
                 Añadir al Carrito
@@ -238,5 +266,10 @@
 <script src="https://kit.fontawesome.com/daa73c26b1.js" crossorigin="anonymous"></script>
 <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
 <script src="/js/index.js"></script>
+<script>
+  document.getElementById("nuevos-ingresos").addEventListener("click", function() {
+    window.location.href = "./paginas/especialidad.html";
+});
+</script>
 </html>
 
