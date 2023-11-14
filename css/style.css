@@ -54,19 +54,19 @@ body{
   right: 0;
 }
 
-#nuevos-ingresos{
+#cafes-de-especialidad{
   background-image: url(../img/cafe_bar.jpg);
   background-size: cover;
   background-position: center;
 }
 
-#categoria-pulseras{
+#panaderia{
   background-image: url(../img/pasteleria/medialunas.jpg);
   background-size: cover;
   background-position: center;
 }
 
-#categoria-anillos{
+#combos{
   background-image: url(../img/pasteleria/cafe-torta.jpg);
   background-size: cover;
   background-position: center;
@@ -84,9 +84,9 @@ cursor: pointer;
 }
 
 @media (min-width: 640px) {
-  .md\:mx-1 {
-    margin-left: 0.25rem !important;
-    margin-right: 0.25rem !important;
+  .sm\:text-gray-50 {
+    --tw-text-opacity: 1 !important;
+    color: rgb(249 250 251 / var(--tw-text-opacity)) !important;
   }
   .sm\:max-w-xl {
     max-width: 36rem !important;
@@ -117,8 +117,11 @@ cursor: pointer;
     flex-basis: auto !important;
   }
 }
-
   @media (min-width: 768px) {
+    .md\:mx-1 {
+      margin-left: 0.25rem !important;
+      margin-right: 0.25rem !important;
+    }
     .md\:basis-0 {
       flex-basis: 0px !important;
     }

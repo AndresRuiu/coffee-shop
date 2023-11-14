@@ -4,7 +4,7 @@
             "nombre": "Café Hawelka",
             "descripcion": "Un café de estilo vienés que combina el sabor intenso del café con la suavidad de la leche y la cremosidad de la nata montada. Ideal para disfrutar de una tarde tranquila en una cafetería histórica.",
             "precio": 500,
-            "destacado": true,
+            "destacado": false,
             "imagen": "../img/Cafe_Hawelka.jpg",
             "tipo": "Café con leche y nata"
           },
@@ -12,7 +12,7 @@
             "nombre": "Café Gijón",
             "descripcion": "Un café típico de España que se acompaña de unas tostadas crujientes con tomate natural y aceite de oliva virgen extra. Una opción saludable y sabrosa para empezar el día con energía.",
             "precio": 400,
-            "destacado": false,
+            "destacado": true,
             "imagen": "../img/pasteleria/caf_tpico_de_Espaa.jpg",
             "tipo": "Café con leche y tostadas"
           },

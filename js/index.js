@@ -41,21 +41,23 @@ async function cargarProductosDestacados() {
     const response = await fetch('../data/productos.json');
     const data = await response.json();
     const cafes = data.cafes.filter(cafe => cafe.destacado);
-    const especialidades = data.especialidad.filter(especialidad => especialidad.destacado);
+    const combos = data.combos.filter(combo => combo.destacado);
   
-    return { cafes, especialidades };
+    return { cafes, combos };
 }
 
-async function mostrarCafesYEspecialidadesDestacados() {
-    const { cafes, especialidades } = await cargarProductosDestacados();
-    const cafesYEspecialidades = [...cafes, ...especialidades];
+async function mostrarCafesYCombosDestacados() {
+    const { cafes, combos } = await cargarProductosDestacados();
+    let cafesYcombos = [...cafes, ...combos];
     
-      const template = document.querySelector("#cafe-card-template");
-      const container = document.querySelector("#cafes-destacados");
-    
-      const fragment = document.createDocumentFragment();
+    cafesYcombos.sort(() => Math.random() - 0.5);
 
-    cafesYEspecialidades.forEach(item => {
+    const template = document.querySelector("#cafe-card-template");
+    const container = document.querySelector("#cafes-destacados");
+
+    const fragment = document.createDocumentFragment();
+
+    cafesYcombos.forEach(item => {
         const instance = template.content.cloneNode(true);
 
         instance.querySelector("#img-cafe").src = item.imagen;
@@ -68,11 +70,9 @@ async function mostrarCafesYEspecialidadesDestacados() {
 
     container.innerHTML = '';
     container.appendChild(fragment);
-
 }
-  
-  
-mostrarCafesYEspecialidadesDestacados();
+
+mostrarCafesYCombosDestacados();
 
 
 
