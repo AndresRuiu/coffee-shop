@@ -221,125 +221,90 @@
     ],
     "especialidad": [
               {
-                "nombre": "Rondó",
-                "descripcion": "Un café de especialidad ubicado en Recoleta, que trabaja con Café Puerto Blest, un grano de Guatemala tostado en Buenos Aires. Ofrece opciones saludables, veganas y aptas para celíacos.",
-                "precio": "1500",
-                "destacado": false,
-                "imagen": "https://www.infobae.com/new-resizer/AcCxL4dALjTCc2VOcf3RIOnCkSw=/768x1152/filters:format(webp):quality(85)/arc-anglerfish-arc2-prod-infobae.s3.amazonaws.com/public/G5YIMIPENVFAJCMQRPGJAT6L3Y.jpeg",
-                "ubicacion": "Uruguay 1048, Recoleta"
+                "nombre": "Café Arábica",
+                "descripcion": "Disfruta de este café en grano suave y aromático, cultivado en las montañas de América Central y del Sur.",
+                "imagen": "../img/especialidades/Café_Arábica.jpg",
+                "precio": 5580,
+                "destacada": true
               },
               {
-                "nombre": "Cigaló",
-                "descripcion": "Un café de especialidad situado en el corredor gastronómico del DOHO, que apuesta a llevar la cafetería de especialidad fuera del radio de influencia de Palermo. Ofrece café en método filtrado y Kalita Wave.",
-                "precio": "1800",
+                "nombre": "Café Robusta",
+                "descripcion": "Prueba este café en grano fuerte y amargo, resistente a las plagas y al clima, originario de África y Asia.",
+                "imagen": "../img/especialidades/Café_Robusta.jpg",
+                "precio": 4530,
+                "destacada": false
+              },
+              {
+                "nombre": "Café Moka",
+                "descripcion": "Deléitate con este café en grano con un toque de chocolate, ideal para los amantes del dulce, procedente de Etiopía.",
+                "imagen": "../img/especialidades/Café_Moka.jpg",
+                "precio": 6630,
+                "destacada": true
+              },
+              {
+                "nombre": "Café Java",
+                "descripcion": "Saborea este café en grano con un sabor intenso y especiado, cultivado en la isla de Java, en Indonesia.",
+                "imagen": "../img/especialidades/Café_Java.jpg",
+                "precio": 5230,
+                "destacada": false
+              },
+              {
+                "nombre": "Café Baritú",
+                "descripcion": " Es el único café que se produce en Argentina, en la selva de las yungas salteñas. Tiene un sabor suave y frutado, con notas de caramelo y chocolate. Se cosecha a mano y se tuesta artesanalmente.",
+                "precio": 3000,
                 "destacado": true,
-                "imagen": "https://www.infobae.com/new-resizer/yc5ZOyr3Q_22HqIFF5dDm23ynQ4=/768x1024/filters:format(webp):quality(85)/arc-anglerfish-arc2-prod-infobae.s3.amazonaws.com/public/SE5NPX7XVZHADIV4E264ME6GMY.jpg",
-                "ubicacion": "Holmberg 2004, Villa Urquiza"
+                "imagen": "../img/especialidades/Café_Baritú.jpg"
               },
               {
-                "nombre": "Birkin",
-                "descripcion": "Un café de especialidad creado por dos amigos que decidieron volcarse al mundo del café. Su intención es que en la carta de acompañamientos, haya opciones para todos los gustos y preferencias.",
-                "precio": "2000",
+                "nombre": "Café Imperial",
+                "descripcion": "Un gran café que ofrece una cuidadosa selección de granos de café colombiano y brasileño, con una mezcla de café arábigo. Tiene un aroma intenso y un sabor equilibrado, con una acidez moderada.",
+                "precio": 3500,
                 "destacado": false,
-                "imagen": "https://www.infobae.com/new-resizer/FYuYECm1iM7EpnER24VItjXcEJI=/768x768/filters:format(webp):quality(85)/arc-anglerfish-arc2-prod-infobae.s3.amazonaws.com/public/T4D43RKLYNFZVNDDTD6L53SKWI.jpg",
-                "ubicacion": "El Salvador 4580, Palermo"
+                "imagen": "../img/especialidades/Café_Imperial.jpg"
               },
               {
-                "nombre": "Churros City",
-                "descripcion": "El punto de encuentro para disfrutar de gran variedad de opciones cuando de churros se trata, acompañados con un delicioso y excelente café de especialidad. El contraste de amargor y dulce deleita el paladar.",
-                "precio": "2500",
-                "destacado": true,
-                "imagen": "https://www.infobae.com/new-resizer/sZzlhaUyXEhTb5ck-BHCqO8bAqU=/768x512/filters:format(webp):quality(85)/arc-anglerfish-arc2-prod-infobae.s3.amazonaws.com/public/N3465V6A2VDVJMXHHH3NSLJGMU.jpg",
-                "ubicacion": "Av. Pedro Goyena 289, Caballito"
-              },
-              {
-                "nombre": "Full City Coffee House",
-                "descripcion": "Un café de especialidad que selecciona los granos, los importa, los tuesta y ofrece en más de 30 posibilidades de bebidas, sumado a leches vegetales, cócteles de autor y café unicornio.",
-                "precio": "3000",
+                "nombre": "Café Durban",
+                "descripcion": "Es un café importado de Colombia, con granos de alta gama cosechados manualmente. Tiene un sabor fresco y frutado, con un agradable aroma de sabor suave y chocolatoso. Se tuesta al estilo americano, lo que le da un cuerpo medio y una acidez baja.",
+                "precio": 4000,
                 "destacado": false,
-                "imagen": "https://www.infobae.com/new-resizer/HOGmW7HTgGa-kJ_0Zu4VKPNTE6A=/768x1152/filters:format(webp):quality(85)/arc-anglerfish-arc2-prod-infobae.s3.amazonaws.com/public/7EGIRFTBWZF6PACTSW7EZHZ7UE.jpeg",
-                "ubicacion": "Jorge Luis Borges 2008, Palermo"
+                "imagen": "../img/especialidades/Café_Durban.jpg"
               },
               {
-                "nombre": "Lattente",
-                "descripcion": "Un café de especialidad ubicado en el nuevo polo gastronómico de San Telmo, que es vanguardista en materia de café, e investiga y desarrolla nuevos varietales que garanticen la calidad de las tazas.",
-                "precio": "3500",
+                "nombre": "Café Sumatra",
+                "descripcion": "Prepárate este café instantáneo con un sabor terroso y complejo, con un cuerpo denso y una acidez baja, originario de Sumatra, en Indonesia.",
+                "imagen": "../img/especialidades/Café_Sumatra.jpg",
+                "precio": 6280,
+                "destacada": false
+              },
+              {
+                "nombre": "Café Kona",
+                "descripcion": "Relájate con este café instantáneo con un sabor delicado y floral, con un aroma exótico, cultivado en la isla de Kona, en Hawái.",
+                "imagen": "../img/especialidades/Café_Kona.jpg",
+                "precio": 7680,
+                "destacada": true
+              },
+              {
+                "nombre": "Café Blue Mountain",
+                "descripcion": "Regálate este café instantáneo con un sabor suave y refinado, con un aroma intenso, producido en las montañas azules de Jamaica.",
+                "imagen": "../img/especialidades/Café_Blue_Mountain.jpg",
+                "precio": 8380,
+                "destacada": false
+              },
+              {
+                "nombre": "Café Guatemala",
+                "descripcion": "Es un café en grano con un sabor dulce y cítrico, con notas de chocolate y nuez. Es un café de alta calidad, que se produce en las regiones volcánicas de Guatemala. Tiene un cuerpo medio y una acidez media-alta.",
+                "precio": 6000,
                 "destacado": false,
-                "imagen": "https://www.infobae.com/new-resizer/zWEGBw0ViZQ89Hdd2NaqdhDC3CY=/768x768/filters:format(webp):quality(85)/arc-anglerfish-arc2-prod-infobae.s3.amazonaws.com/public/LXNRUMZJQBFNRAA7VG4ZZM6MK4.jpg",
-                "ubicacion": "Mercado de San Telmo, Bolívar 960"
+                "imagen": "../img/especialidades/Café_Guatemala.jpg"
               },
               {
-                "nombre": "Sāntal",
-                "descripcion": "Un café de especialidad que proviene de Puerto Blest de Nicaragua, con granos especialmente seleccionados que llegan directamente a Sāntal, donde sus expertos baristas le dan un tostado especial.",
-                "precio": "4000",
+                "nombre": "Café Tommi",
+                "descripcion": "Es un café instantáneo con un sabor fuerte y alcohólico, con un toque de whisky y crema. Es un café ideal para los días fríos, que se sirve en una taza de vidrio.",
+                "precio": 6500,
                 "destacado": false,
-                "imagen": "https://www.infobae.com/new-resizer/oDFHA-CIOlkC2h2DmCL-rcaXfxA=/768x1152/filters:format(webp):quality(85)/arc-anglerfish-arc2-prod-infobae.s3.amazonaws.com/public/TJLB6WYMAZGUNNZKMUQC2YYMZE.jpg",
-                "ubicacion": "Virrey del Pino 2235, Belgrano"
-              },
-              {
-                "nombre": "Flat white",
-                "descripcion": "El primer café de especialidad en zona norte. Se trata de una combinación de arte, café y buena onda. Poseen variedad de granos, son tostadores y se rigen por la carta italiana.",
-                "precio": "4500",
-                "destacado": false,
-                "imagen": "https://www.infobae.com/new-resizer/9fHL4DJuf7eF6F5_FprA2aXzJN0=/768x1024/filters:format(webp):quality(85)/arc-anglerfish-arc2-prod-infobae.s3.amazonaws.com/public/PW7ESS5HFBFRTNLSBKDNH7TC2Q.jpg",
-                "ubicacion": "Dr. René Favaloro 3331, Victoria"
-              },
-              {
-                "nombre": "Negro",
-                "descripcion": "Un café de especialidad que nace de dos amigos que se volcaron al mundo del café. Su café es magia y podés encontrar a tres de ellos atrás de 'Aurelia', su máquina espresso.",
-                "precio": "5000",
-                "destacado": false,
-                "imagen": "https://www.infobae.com/new-resizer/p5svf6mu4oFmh6JCfJXUT-9gVKM=/768x768/filters:format(webp):quality(85)/arc-anglerfish-arc2-prod-infobae.s3.amazonaws.com/public/T6BOOR7PRBEBNL3HVF6PEV3LZE.jpg",
-                "ubicacion": "Serrano 1415, Palermo"
-              },
-              {
-                "nombre": "Crespin",
-                "descripcion": "Un café de especialidad que nace con la visión de transmitir una sensación hogareña en medio de la ciudad. Es un restaurante que une la cocina moderna con un gran café.",
-                "precio": "5500",
-                "destacado": true,
-                "imagen": "https://www.infobae.com/new-resizer/Qn725XGyPHnC9MbK9OFI9Bfcy0A=/768x1024/filters:format(webp):quality(85)/arc-anglerfish-arc2-prod-infobae.s3.amazonaws.com/public/Q7YOUKVAMFABDG6VWBAIFAWSOU.jpg",
-                "ubicacion": "Peña 2033, Recoleta"
-              },
-              {
-                "nombre": "LAB",
-                "descripcion": "Un café de especialidad que nace en 2009 con la pasión por el café. Son tostadores y desarrollan los perfiles de los granos. Ofrecen bebidas con café frías y originales.",
-                "precio": "6000",
-                "destacado": false,
-                "imagen": "https://www.infobae.com/new-resizer/YprQYo1K8UqYn1-YPPgb2GHKmck=/768x512/filters:format(webp):quality(85)/arc-anglerfish-arc2-prod-infobae.s3.amazonaws.com/public/PA47NXXGDZDEVAB7GOID32WHK4.jpg",
-                "ubicacion": "Humboldt 1542, Palermo"
-              },
-              {
-                "nombre": "Crisol",
-                "descripcion": "Un café de especialidad que prioriza el café y una propuesta de cocina con recetas simples, caseras y elaboradas con ingredientes frescos. Cada paso es importante para lograr el café perfecto.",
-                "precio": "6500",
-                "destacado": false,
-                "imagen": "https://www.infobae.com/new-resizer/wHelBW-3ey_2HDpW1dQWPzRWtqQ=/768x1024/filters:format(webp):quality(85)/arc-anglerfish-arc2-prod-infobae.s3.amazonaws.com/public/A3XIM5HA7ZHODLURSEZTOLY73Q.jpg",
-                "ubicacion": "Gral. Ramón Freire 1502, Colegiales"
-              },
-              {
-                "nombre": "Oui Oui",
-                "descripcion": "Un café de especialidad que abrió sus puertas en 2001 en un Palermo Viejo que todavía no había explotado. Se destacan por su amplia carta de cafés y pastelería que es elaborada in house.",
-                "precio": "7000",
-                "destacado": false,
-                "imagen": "https://www.infobae.com/new-resizer/AxZllfGhDxW-PFjZgVnHzRLkf-w=/768x1024/filters:format(webp):quality(85)/arc-anglerfish-arc2-prod-infobae.s3.amazonaws.com/public/DAMTB27HFJD2XLVB5WWX2RKJKA.jpeg",
-                "ubicacion": "El Salvador 4701, esquina Armenia"
-              },
-              {
-                "nombre": "Martínez",
-                "descripcion": "Un café de especialidad que nace como una cafetería de especialidad. Es aliado estratégico de Puerto Blest Tostadores y coffee hunters argentinos. Todos sus cafés son orgánicos y artesanales.",
-                "precio": "7500",
-                "destacado": false,
-                "imagen": "https://www.infobae.com/new-resizer/PNkGy7OMK3nIPih5wNtXzdW7Kmw=/768x1024/filters:format(webp):quality(85)/arc-anglerfish-arc2-prod-infobae.s3.amazonaws.com/public/RZ6T42RE7VCQTFQWYS2SO3TZAE.jpeg",
-                "ubicacion": "Franklin D. Roosevelt 1894, Nuñez"
-              },
-              {
-                "nombre": "All Saints",
-                "descripcion": "Un café de especialidad creado por una pareja que encontró la pasión por el café en un viaje a San Francisco. Ofrecen variedad de cafés, desde el clásico flat white hasta el dulce nutellatte.",
-                "precio": "8000",
-                "destacado": false,
-                "imagen": "https://www.infobae.com/new-resizer/kBBK5aBltb9Rs7JDftGxqE-ryEE=/768x576/filters:format(webp):quality(85)/arc-anglerfish-arc2-prod-infobae.s3.amazonaws.com/public/HRAVZEPBS5DBFBKUJNABU6TJEU.jpg",
-                "ubicacion": "Cerrito 1224, Recoleta"
+                "imagen": "../img/especialidades/Café_Tommi.jpg"
               }
+              
     ],
     "panaderia":[
               {
