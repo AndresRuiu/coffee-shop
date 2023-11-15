@@ -65,9 +65,9 @@ async function cargarProductos() {
         const panaderia = data.panaderia;
       
         return { cafes, especialidades, combos, panaderia };
-    }
+}
     
-    async function mostrarProductos(productos) {
+async function mostrarProductos(productos) {
         const template = document.querySelector("#cafe-card-template");
         const container = document.querySelector("#todo-productos");
     
@@ -111,14 +111,11 @@ async function mainProductos() {
                 productosFiltrados = ordenarProductos(productos, orden);
             }
             mostrarProductos(productosFiltrados);
-        });
+    });
 
         mostrarProductos(productos);
 }
     
-
-    
-
 mainProductos();
 
 

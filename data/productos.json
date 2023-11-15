@@ -87,7 +87,7 @@
               "descripcion": "Un café de origen árabe que mezcla el sabor del café con el del chocolate y la canela. Ideal para los amantes del dulce y el aroma.",
               "precio": 550,
               "destacado": true,
-              "imagen": "https://th.bing.com/th/id/R.ab8302774f97858736a5fd828e2e6492?rik=ILYHksT%2fBUbBag&riu=http%3a%2f%2fwww.sirup-rezepte.de%2fpics%2fupload%2fkaffee-mocha-fotolia-66666068jpg-1440-900.jpg&ehk=KGudDgFT5O%2fQP7w3DS4ZLu%2bYYIG954iQHEsoPbMuYrA%3d&risl=&pid=ImgRaw&r=0",
+              "imagen": "../img/cafes/mocha.jpg",
               "tipo": "Café con chocolate y canela"
             },
             {
@@ -95,7 +95,7 @@
               "descripcion": "Un café de origen italiano que combina el café con la leche espumada y el cacao en polvo. Ideal para los que quieren un café cremoso y suave.",
               "precio": 500,
               "destacado": true,
-              "imagen": "https://cdn3.tmbi.com/secure/RMS/attachments/37/1200x1200/exps37407_THE1213734_37407_WEB.jpg",
+              "imagen": "../img/cafes/Capuchino.jpg",
               "tipo": "Café con leche espumada y cacao"
             },
             {
@@ -103,7 +103,7 @@
               "descripcion": "Un café de origen irlandés que incorpora el whisky y el azúcar moreno al café. Ideal para los que quieren un café fuerte y alcohólico.",
               "precio": 700,
               "destacado": false,
-              "imagen": "https://th.bing.com/th/id/R.6b20fd38ef015280ec0b34800a1ea2eb?rik=Y19VYShXE%2f1LiQ&riu=http%3a%2f%2fcheersonline.com%2fwp-content%2fuploads%2f2015%2f04%2f003-834x1024.jpg&ehk=8v00WHJjKBYtzlTNjj1r6OzSkhVg628W1%2bYA6lVu4V8%3d&risl=&pid=ImgRaw&r=0",
+              "imagen": "../img/cafes/Irlandes.jpg",
               "tipo": "Café con whisky y azúcar"
             },
             {
@@ -111,7 +111,7 @@
               "descripcion": "Un café de origen griego que se prepara con café instantáneo, agua, hielo y leche condensada. Ideal para los que quieren un café frío y refrescante.",
               "precio": 450,
               "destacado": false,
-              "imagen": "https://www.cocktail.fr/wp-content/uploads/2017/05/cafe-frappe-baileys-1011x675.jpg",
+              "imagen": "../img/cafes/Frappe.jpg",
               "tipo": "Café helado con leche condensada"
             },
             {
@@ -119,7 +119,7 @@
               "descripcion": "Un café de origen francés que se elabora con café expreso y leche caliente. Ideal para los que quieren un café clásico y sencillo.",
               "precio": 400,
               "destacado": true,
-              "imagen": "https://i.pinimg.com/originals/4f/15/93/4f1593c4e50c04131f15abee5125c4b8.jpg",
+              "imagen": "../img/cafes/latte.jpg",
               "tipo": "Café con leche caliente"
             },
             {
@@ -127,7 +127,7 @@
               "descripcion": "Un café de origen italiano que se hace con café expreso y una pequeña cantidad de leche espumada. Ideal para los que quieren un café intenso y aromático.",
               "precio": 450,
               "destacado": false,
-              "imagen": "https://cdn.thinglink.me/api/image/386220155165736960/1024/10/scaletowidth/0/0/1/1/false/true?wait=true",
+              "imagen": "../img/cafes/Macchiato.jpg",
               "tipo": "Café con leche espumada"
             },
             {
@@ -135,7 +135,7 @@
               "descripcion": "Un café de origen estadounidense que se obtiene al añadir agua caliente al café expreso. Ideal para los que quieren un café suave y diluido.",
               "precio": 350,
               "destacado": false,
-              "imagen": "https://cdn.shopify.com/s/files/1/0262/5080/5306/products/americano-1_800x.jpg?v=1618806696",
+              "imagen": "../img/cafes/Americano.jpg",
               "tipo": "Café suave y diluido"
             },
             {
@@ -143,7 +143,7 @@
                 "descripcion": "Un café italiano de sabor fuerte y concentrado. Ideal para los amantes del café negro y sin aditivos.",
                 "precio": 450,
                 "destacado": true,
-                "imagen": "https://th.bing.com/th/id/OIP.MMWQCJyD9L_HM74T-bcNJwHaLI?pid=ImgDet&rs=1",
+                "imagen": "../img/cafes/expreso.jpg",
                 "tipo": "Café negro"
               },
               {
@@ -151,7 +151,7 @@
                 "descripcion": "Un café que combina café expreso con una pequeña cantidad de leche. Ideal para quienes desean un equilibrio entre lo fuerte y lo suave.",
                 "precio": 400,
                 "destacado": false,
-                "imagen": "https://1.bp.blogspot.com/-VULWlcby60Y/XcMcwHsRbTI/AAAAAAAAARc/pMMJDx0YntomcSycpjA94iq2gtHaX7ZggCLcBGAsYHQ/s1600/coffee-2850833_1920.jpg",
+                "imagen": "../img/cafes/Cortado.jpg",
                 "tipo": "Café con un toque de leche"
               },
               {
@@ -159,7 +159,7 @@
                 "descripcion": "Un café de origen colombiano con notas de frutos rojos y cacao. Ideal para los amantes de los sabores exóticos.",
                 "precio": 550,
                 "destacado": false,
-                "imagen": "https://cafesluthier.es/wp-content/uploads/2021/03/Historia-del-cafe-en-Colombia-cafemalist.jpg",
+                "imagen": "../img/cafes/caf_de_colombia.jpg",
                 "tipo": "Café colombiano"
               },
               {
@@ -167,7 +167,7 @@
                 "descripcion": "Un café austríaco con nata montada y chocolate. Ideal para quienes buscan una experiencia indulgente.",
                 "precio": 600,
                 "destacado": false,
-                "imagen": "https://th.bing.com/th/id/OIP.U8ZCHcVxifWSf0FBIdOfuQHaGm?pid=ImgDet&w=510&h=455&rs=1",
+                "imagen": "../img/cafes/Viennese.jpg",
                 "tipo": "Café con nata y chocolate"
               },
               {
@@ -175,7 +175,7 @@
                 "descripcion": "Un doble shot de café expreso italiano. Ideal para quienes necesitan un impulso extra de energía.",
                 "precio": 500,
                 "destacado": false,
-                "imagen": "https://cafeguias.com/wp-content/uploads/2022/02/Expreso-Doble..jpg",
+                "imagen": "../img/cafes/Espresso_Doble.jpg",
                 "tipo": "Doble shot de café negro"
               },
               {
@@ -183,7 +183,7 @@
                 "descripcion": "Un café dulce con caramelo y crema batida. Ideal para los amantes de los sabores caramelizados.",
                 "precio": 550,
                 "destacado": true,
-                "imagen": "https://cozinhadobomgosto.com/wp-content/uploads/2017/12/cafe_caramelo_shell_CREDITOS.jpg",
+                "imagen": "../img/cafes/caramelo.jpg",
                 "tipo": "Café con caramelo y crema"
               },
               {
@@ -191,7 +191,7 @@
                 "descripcion": "Un café de origen etíope con notas florales y cítricas. Ideal para los que buscan un café afrutado y único.",
                 "precio": 600,
                 "destacado": false,
-                "imagen": "https://www.lajoyadelcafe.com/wp-content/uploads/2017/12/Caf%C3%A9-gourmet-Etiop%C3%ADa-1024x741.jpg",
+                "imagen": "../img/cafes/caf_de_etopia.jpg",
                 "tipo": "Café etíope"
               },
               {
@@ -199,7 +199,7 @@
                 "descripcion": "Un café vienés sin nata montada, pero con chocolate. Ideal para quienes prefieren su café negro con un toque de cacao.",
                 "precio": 500,
                 "destacado": false,
-                "imagen": "https://www.pascualprofesional.com/wp-content/uploads/2022/08/Cafe_vienes.jpg",
+                "imagen": "../img/cafes/vienes_negro.jpg",
                 "tipo": "Café vienés negro"
               },
               {
@@ -207,7 +207,7 @@
                 "descripcion": "Un café con especias, leche y té negro. Ideal para los amantes de las infusiones y los sabores orientales.",
                 "precio": 450,
                 "destacado": false,
-                "imagen": "../img/cafe-amarillo.jpg",
+                "imagen": "../img/cafes/Chai_Latte.jpg",
                 "tipo": "Café con especias y té negro"
               },
               {
@@ -215,7 +215,7 @@
                 "descripcion": "Un café de origen jamaicano con notas de nuez y cacao. Ideal para quienes desean explorar nuevos sabores.",
                 "precio": 550,
                 "destacado": false,
-                "imagen": "https://www.caribbeannewsdigital.com/sites/default/files/sites/default/files/es/imagenes_noticias/cafe-jamaica.jpg",
+                "imagen": "../img/cafes/caf_de_jamaica.jpg",
                 "tipo": "Café jamaicano"
               }
     ],
