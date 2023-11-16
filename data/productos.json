@@ -230,21 +230,21 @@
               {
                 "nombre": "Café Robusta",
                 "descripcion": "Prueba este café en grano fuerte y amargo, resistente a las plagas y al clima, originario de África y Asia.",
-                "imagen": "../img/especialidades/Café_Robusta.jpg",
+                "imagen": "../img/especialidades/Café_Robusta.webp",
                 "precio": 4530,
                 "destacada": false
               },
               {
                 "nombre": "Café Moka",
                 "descripcion": "Deléitate con este café en grano con un toque de chocolate, ideal para los amantes del dulce, procedente de Etiopía.",
-                "imagen": "../img/especialidades/Café_Moka.jpg",
+                "imagen": "../img/especialidades/Café_Moka.webp",
                 "precio": 6630,
                 "destacada": true
               },
               {
                 "nombre": "Café Java",
                 "descripcion": "Saborea este café en grano con un sabor intenso y especiado, cultivado en la isla de Java, en Indonesia.",
-                "imagen": "../img/especialidades/Café_Java.jpg",
+                "imagen": "../img/especialidades/Café_Java.webp",
                 "precio": 5230,
                 "destacada": false
               },
@@ -272,14 +272,14 @@
               {
                 "nombre": "Café Sumatra",
                 "descripcion": "Prepárate este café instantáneo con un sabor terroso y complejo, con un cuerpo denso y una acidez baja, originario de Sumatra, en Indonesia.",
-                "imagen": "../img/especialidades/Café_Sumatra.jpg",
+                "imagen": "../img/especialidades/Café_Sumatra.webp",
                 "precio": 6280,
                 "destacada": false
               },
               {
                 "nombre": "Café Kona",
                 "descripcion": "Relájate con este café instantáneo con un sabor delicado y floral, con un aroma exótico, cultivado en la isla de Kona, en Hawái.",
-                "imagen": "../img/especialidades/Café_Kona.jpg",
+                "imagen": "../img/especialidades/Café_Kona.webp",
                 "precio": 7680,
                 "destacada": true
               },
@@ -302,7 +302,7 @@
                 "descripcion": "Es un café instantáneo con un sabor fuerte y alcohólico, con un toque de whisky y crema. Es un café ideal para los días fríos, que se sirve en una taza de vidrio.",
                 "precio": 6500,
                 "destacado": false,
-                "imagen": "../img/especialidades/Café_Tommi.jpg"
+                "imagen": "../img/especialidades/Café_Tommi.webp"
               }
               
     ],
