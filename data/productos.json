@@ -228,23 +228,23 @@
                 "destacada": true
               },
               {
-                "nombre": "Café Robusta",
-                "descripcion": "Prueba este café en grano fuerte y amargo, resistente a las plagas y al clima, originario de África y Asia.",
-                "imagen": "../img/especialidades/Café_Robusta.webp",
+                "nombre": "Café Ristretto",
+                "descripcion": "Prueba este café en grano fuerte y amargo, con pequeños toques de frutos rojos, originario de Argentina.",
+                "imagen":"../img/especialidades/Cafe_Ristretto.jpg",
                 "precio": 4530,
                 "destacada": false
               },
               {
                 "nombre": "Café Moka",
                 "descripcion": "Deléitate con este café en grano con un toque de chocolate, ideal para los amantes del dulce, procedente de Etiopía.",
-                "imagen": "../img/especialidades/Café_Moka.webp",
+                "imagen": "../img/especialidades/Café_Moka.jpg",
                 "precio": 6630,
                 "destacada": true
               },
               {
                 "nombre": "Café Java",
                 "descripcion": "Saborea este café en grano con un sabor intenso y especiado, cultivado en la isla de Java, en Indonesia.",
-                "imagen": "../img/especialidades/Café_Java.webp",
+                "imagen": "../img/especialidades/Café_Java.jpg",
                 "precio": 5230,
                 "destacada": false
               },
@@ -302,7 +302,7 @@
                 "descripcion": "Es un café instantáneo con un sabor fuerte y alcohólico, con un toque de whisky y crema. Es un café ideal para los días fríos, que se sirve en una taza de vidrio.",
                 "precio": 6500,
                 "destacado": false,
-                "imagen": "../img/especialidades/Café_Tommi.webp"
+                "imagen": "../img/especialidades/Café_Tommi.jpg"
               }
               
     ],
