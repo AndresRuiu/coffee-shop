@@ -520,6 +520,10 @@ img, video {
   margin-left: .5rem;
 }
 
+.ml-3 {
+  margin-left: .75rem;
+}
+
 .ml-4 {
   margin-left: 1rem;
 }
@@ -530,10 +534,6 @@ img, video {
 
 .mt-1 {
   margin-top: .25rem;
-}
-
-.mt-12 {
-  margin-top: 3rem;
 }
 
 .mt-2 {
@@ -584,8 +584,8 @@ img, video {
   display: none;
 }
 
-.h-2 {
-  height: .5rem;
+.h-1 {
+  height: .25rem;
 }
 
 .h-5 {
@@ -624,8 +624,8 @@ img, video {
   height: 100vh;
 }
 
-.w-2 {
-  width: .5rem;
+.w-1 {
+  width: .25rem;
 }
 
 .w-6 {
@@ -901,16 +901,16 @@ img, video {
   object-position: top;
 }
 
-.p-3 {
-  padding: .75rem;
-}
-
 .p-4 {
   padding: 1rem;
 }
 
 .p-6 {
   padding: 1.5rem;
+}
+
+.p-\[9px\] {
+  padding: 9px;
 }
 
 .px-10 {
@@ -1000,6 +1000,10 @@ img, video {
   text-align: right;
 }
 
+.text-end {
+  text-align: end;
+}
+
 .align-middle {
   vertical-align: middle;
 }
@@ -1012,6 +1016,10 @@ img, video {
 .text-4xl {
   font-size: 2.25rem;
   line-height: 2.5rem;
+}
+
+.text-\[11px\] {
+  font-size: 11px;
 }
 
 .text-\[40px\] {
@@ -1082,6 +1090,11 @@ img, video {
 .text-amber-950 {
   --tw-text-opacity: 1;
   color: rgb(69 26 3 / var(--tw-text-opacity));
+}
+
+.text-black {
+  --tw-text-opacity: 1;
+  color: rgb(0 0 0 / var(--tw-text-opacity));
 }
 
 .text-gray-100 {
@@ -1332,6 +1345,10 @@ button.boton-comprar-promo:focus {
 }
 
 @media (min-width: 768px) {
+  .md\:pl-0 {
+    padding-left: 0 !important;
+  }
+
   .md\:mx-1 {
     margin-left: .25rem !important;
     margin-right: .25rem !important;
@@ -1345,9 +1362,9 @@ button.boton-comprar-promo:focus {
     width: max-content !important;
   }
 
-  .md\:px-10 {
-    padding-left: 2.5rem !important;
-    padding-right: 2.5rem !important;
+  .md\:px-7 {
+    padding-left: 1.75rem !important;
+    padding-right: 1.75rem !important;
   }
 
   .md\:w-1\/3 {
@@ -1697,10 +1714,6 @@ button.boton-comprar-promo:focus {
     width: max-content;
   }
 
-  .sm\:max-w-xl {
-    max-width: 36rem;
-  }
-
   .sm\:grid-cols-2 {
     grid-template-columns: repeat(2, minmax(0, 1fr));
   }
@@ -1719,11 +1732,6 @@ button.boton-comprar-promo:focus {
     --tw-space-y-reverse: 0;
     margin-top: calc(0px * calc(1 - var(--tw-space-y-reverse)));
     margin-bottom: calc(0px * var(--tw-space-y-reverse));
-  }
-
-  .sm\:text-gray-50 {
-    --tw-text-opacity: 1;
-    color: rgb(249 250 251 / var(--tw-text-opacity));
   }
 }
 
@@ -1774,10 +1782,6 @@ button.boton-comprar-promo:focus {
     width: max-content;
   }
 
-  .md\:max-w-full {
-    max-width: 100%;
-  }
-
   .md\:max-w-md {
     max-width: 28rem;
   }
@@ -1824,6 +1828,11 @@ button.boton-comprar-promo:focus {
     padding-right: 6rem;
   }
 
+  .md\:px-7 {
+    padding-left: 1.75rem;
+    padding-right: 1.75rem;
+  }
+
   .md\:pr-12 {
     padding-right: 3rem;
   }
@@ -1862,10 +1871,6 @@ button.boton-comprar-promo:focus {
 
   .lg\:max-w-full {
     max-width: 100%;
-  }
-
-  .lg\:max-w-screen-xl {
-    max-width: 1280px;
   }
 
   .lg\:max-w-sm {
